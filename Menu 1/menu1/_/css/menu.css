@@ -1,0 +1,57 @@
+*{
+    margin:0;
+}
+#mainMenu{
+    width:100%;
+    height:45px;
+    background-color:black;
+}
+#mainMenu .rightSider{
+    float:right;
+}
+#mainMenu .rightSider a{
+    text-decoration:none;
+    color:white;
+    line-height:45px;
+    background-color:transparent;
+    padding-right:5px;
+    padding-left:5px;
+    float:right;
+    margin-left:1px;
+}
+#mainMenu .rightSider a:hover{
+    background-color:white;
+    color:black;
+}
+#mainMenu .leftSider{
+    float:left;
+}
+#mainMenu .leftSider button{
+    border:none;
+    padding-right:10px;
+    padding-left:45px;
+    height:45px;
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: 30px 30px;
+    background-color:black;
+    color:white;
+}
+#mainMenu .leftSider button.signinICO{
+    background-image:url("../Images&icons/person-fill.svg");
+    background-position-x: 12px;
+}
+#mainMenu .leftSider button.signinICO:hover{
+    background-image:url("../Images&icons/person-fill-white.svg");
+    background-color:white;
+    color:black;
+}
+#mainMenu .leftSider button.signupICO{
+    background-image: url("../Images&icons/person-plus-fill.svg");
+    background-position-x: 10px;
+}
+#mainMenu .leftSider button.signupICO:hover{
+    background-image: url("../Images&icons/person-plus-fill-white.svg");
+    background-color:white;
+    color:black;
+}
